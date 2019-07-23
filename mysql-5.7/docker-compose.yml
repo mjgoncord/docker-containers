@@ -12,8 +12,8 @@ services:
     environment:
       MYSQL_ROOT_PASSWORD: adm1n
       MYSQL_DATABASE: db_springboot_backend
-      MYSQL_USER: root
-      MYSQL_PASSWORD: sasa
+      MYSQL_USER: user
+      MYSQL_PASSWORD: user
 
   adminer:
     image: adminer
